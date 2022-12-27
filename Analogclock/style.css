@@ -1,0 +1,56 @@
+.clockConatiner{
+    position: relative ;
+    margin: auto;
+    border: 2px solid rebeccapurple;
+    border-radius: 5%;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+
+
+#hour , #minute , #second{
+    position: absolute;
+    background:rgb(0, 0, 0);
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+#dot{
+    position: absolute;
+    background: rgb(0, 1, 0);
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{   
+    width: 2%;
+    height: 25%;
+    top: 28%;
+    left: 50%;
+    opacity: 0.8;
+    
+}
+
+#minute{
+    width: 1.5%;
+    height: 38%;
+    top: 15%;
+    left: 50%;
+    opacity: 0.8;
+}
+
+#second{
+    width: 1%;
+    height: 32%;
+    top: 21%;
+    left: 50%;
+    opacity: 0.8;
+}
+
+#dot{
+    width: 4%;
+    height: 4%;
+    top: 51%;
+    left: 49%;
+}
